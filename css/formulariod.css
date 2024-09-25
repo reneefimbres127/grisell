@@ -1,0 +1,172 @@
+body{
+	background-size: 100%;
+	font-family: Verdana;
+	 margin: 0; 
+    padding: 0;
+}
+html, body {
+    height: 100%; /* Asegura que el html y body ocupen toda la altura */
+    margin: 0; /* Elimina márgenes */
+    background-color:#FDEEFD ;
+}
+.fondo {
+    background-color: #FDEEFD; 
+    height: 100vh; /* Altura de la sección a 100% de la altura de la ventana */
+    display: flex; /* Usar flexbox para centrar el formulario */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; 
+    background-size: cover;
+}
+
+.formulario {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+.cuerpo{
+	align-items: center;
+}
+.top{
+	font-size: 300%;
+	text-align: center;
+	transform: translateY(210px);
+	color: #663F54;
+	 margin: 0; 
+    padding: 0;
+}
+.top{
+	font-size: 200%;
+	text-align: center;
+	transform: translateY(-1px);
+	color: #663F54;
+	 margin: 0; 
+    padding: 0;
+
+}
+header{
+	background-color:#834A7F;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	font-size: 40px;
+	width: 100%;
+}
+nav{
+	line-height: 40px;
+	background-color: #F7CAF4;
+	color: white;
+	height: 600px;
+	width: 200px;
+	float: left;
+	padding: 5px;
+	font-size: 22px;
+	text-decoration: none;
+	margin: 20px;
+	width: 20%;
+}
+nav a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
+footer{
+	background-color: #834A7F;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+ 
+
+@media (max-width: 768px) {
+   html, body {
+    height: 100%; /* Asegura que el html y body ocupen toda la altura */
+    margin: 0; /* Elimina márgenes */
+    background-color: #FDEEFD;
+}
+
+.fondo {
+    background-color: #FDEEFD; 
+    height: 100vh; /* Altura de la sección a 100% de la altura de la ventana */
+    display: flex; /* Usar flexbox para centrar el formulario */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; 
+    background-size: cover;
+}
+
+.formulario {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cuerpo {
+    align-items: center;
+}
+
+.top {
+    font-size: 80%;
+    text-align: center;
+   top: 80;
+    color: #663F54;
+    margin: 0; 
+    padding: 0;
+}
+
+/* Duplicado de .top, se elimina el segundo */
+header {
+    background-color: #834A7F;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 100%; /* Cambiado a em para ser más responsivo */
+    width: 100%;
+}
+
+nav {
+    line-height: 40px;
+    background-color: #F7CAF4;
+    color: white;
+    height: auto;
+    width: 100%; 
+    padding: 10px; /* Aumenta el padding para hacer más grande el área clicable */
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: 20px 0; 
+    position: relative; /* Asegúrate de que no haya problemas de posicionamiento */
+    z-index: 1; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+nav a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #834A7F;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    transform: translateY(120px);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+	 

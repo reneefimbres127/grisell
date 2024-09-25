@@ -1,0 +1,148 @@
+body{
+    background-size: 100%;
+    font-family: Verdana;
+     margin: 0; 
+    padding: 0;
+}
+html, body {
+    height: 100%; /* Asegura que el html y body ocupen toda la altura */
+    margin: 0; /* Elimina márgenes */
+    background-color:#FDEEFD ;
+}
+header{
+    background-color:#834A7F;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 40px;
+    width: 100%;
+}
+nav{
+    line-height: 30px;
+    background-color: #F7CAF4;
+    color: white;
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 20px;
+    width: 20%;
+}
+nav a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+footer{
+    background-color: #834A7F;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu {
+    width: 50%; /* Ajusta el ancho de la tabla */
+    margin: auto; /* Centra la tabla */
+    border-collapse: collapse; /* Elimina el espacio entre celdas */
+}
+
+.menu th, .menu td {
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alineación de texto */
+    border: 1px solid #ccc; /* Bordes de las celdas */
+}
+
+.menu th {
+    background-color: #f2f2f2; /* Fondo para el encabezado */
+}
+
+.imagen-menu {
+    width: 40px; /* Ajusta el tamaño de las imágenes */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+@media (max-width: 768px){
+    body {
+    background-size: 100%;
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%; /* Asegura que el html y body ocupen toda la altura */
+    margin: 0; /* Elimina márgenes */
+    background-color: #FDEEFD;
+}
+
+header {
+    background-color: #834A7F;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 100%; /* Cambiado a em para ser más responsivo */
+    width: 100%;
+}
+
+nav {
+    line-height: 40px;
+    background-color: #F7CAF4;
+    color: white;
+    height: auto; /* Cambiado a auto */
+    width: 100%; /* Cambiado a 100% */
+    padding: 5px;
+    font-size: 1.2em; /* Cambiado a em */
+    text-decoration: none;
+    margin: 20px 0; /* Margen vertical */
+}
+
+nav a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #834A7F;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    width: 90%; /* Ajusta el ancho de la tabla en móviles */
+    margin: auto; /* Centra la tabla */
+    border-collapse: collapse; /* Elimina el espacio entre celdas */
+}
+
+.menu th, .menu td {
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alineación de texto */
+    border: 1px solid #ccc; /* Bordes de las celdas */
+}
+
+.menu th {
+    background-color: #f2f2f2; /* Fondo para el encabezado */
+}
+
+.imagen-menu {
+    width: 40px; /* Ajusta el tamaño de las imágenes */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+ }   
